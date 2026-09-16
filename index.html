@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home &amp; Baby — детские замки и блокираторы для дома</title>
+<meta name="description" content="Home & Baby — детские замки и блокираторы для безопасности дома. Замки на окна, двери, холодильник, блокираторы мебели.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="logo" aria-label="Home & Baby — на главную">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="20" cy="20" r="20" fill="#E9F6FB"/>
+        <path d="M20 10c-4 0-7 3.2-7 7.2 0 3.6 2.6 6.4 5.4 8.6.5.4 1 .8 1.6.8s1.1-.4 1.6-.8c2.8-2.2 5.4-5 5.4-8.6 0-4-3-7.2-7-7.2z" stroke="#1B93B2" stroke-width="2" stroke-linejoin="round"/>
+        <circle cx="20" cy="17.5" r="2.2" fill="#F5893C"/>
+      </svg>
+      <span class="logo-text">Home<br>&amp; Baby</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Основная навигация">
+      <ul>
+        <li><a href="#catalog">Каталог</a></li>
+        <li><a href="#about">О бренде</a></li>
+        <li><a href="#delivery">Доставка и оплата</a></li>
+        <li><a href="#blog">Блог</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <form class="search-form" role="search" action="#" onsubmit="return false;">
+        <label class="sr-only" for="search-input">Поиск товаров</label>
+        <input id="search-input" type="search" placeholder="Поиск товаров...">
+        <button type="submit" aria-label="Найти">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </form>
+
+      <button class="icon-btn" aria-label="Избранное" type="button">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-10-9.3C.3 7.7 2 4 5.7 4 8 4 10 5.3 12 7.5 14 5.3 16 4 18.3 4 22 4 23.7 7.7 22 11.2 19.5 15.9 12 20.5 12 20.5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Личный кабинет" type="button">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M4 20c1.6-3.6 4.8-5.5 8-5.5s6.4 1.9 8 5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn cart-btn" aria-label="Корзина, товаров: 0" type="button">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4h2l2.4 12.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.6L21 8H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="21" r="1.4" fill="currentColor"/><circle cx="18" cy="21" r="1.4" fill="currentColor"/></svg>
+        <span class="cart-count" id="cart-count">0</span>
+      </button>
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="spark" aria-hidden="true">✦</span> Home &amp; Baby</p>
+        <h1>Маленькие решения<br>для большого<br>спокойствия <span aria-hidden="true">♡</span></h1>
+        <p class="hero-sub">Детские замки и блокираторы<br>для дома</p>
+        <a href="#catalog" class="btn btn-primary">Перейти в каталог <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-media" aria-hidden="true">
+        <div class="hero-media-frame">
+          <svg viewBox="0 0 520 420" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ребёнок безопасно открывает окно с установленным детским замком">
+            <rect width="520" height="420" rx="28" fill="#F3F8FB"/>
+            <rect x="60" y="30" width="330" height="360" rx="10" fill="#DDEFF6" stroke="#BFE1EC" stroke-width="4"/>
+            <line x1="225" y1="30" x2="225" y2="390" stroke="#BFE1EC" stroke-width="4"/>
+            <line x1="60" y1="210" x2="390" y2="210" stroke="#BFE1EC" stroke-width="4"/>
+            <rect x="150" y="180" width="26" height="46" rx="6" fill="#ffffff" stroke="#1B93B2" stroke-width="3"/>
+            <circle cx="163" cy="203" r="3" fill="#F5893C"/>
+            <circle cx="330" cy="150" r="46" fill="#FCEFE3"/>
+            <circle cx="330" cy="150" r="46" fill="none" stroke="#F5893C" stroke-width="0" />
+            <circle cx="330" cy="150" r="30" fill="#FDE7CE"/>
+            <path d="M312 158c4 10 12 16 18 16s14-6 18-16" stroke="#E67A2E" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <circle cx="318" cy="140" r="4" fill="#3A2C22"/>
+            <circle cx="344" cy="140" r="4" fill="#3A2C22"/>
+            <path d="M300 210c6-22 16-32 30-32s24 10 30 32" fill="#FFE3C2"/>
+            <rect x="285" y="205" width="90" height="120" rx="30" fill="#FBF3EA"/>
+            <path d="M320 260c6 8 12 10 16 10s10-2 16-10" stroke="#F5893C" stroke-width="4" stroke-linecap="round" fill="none"/>
+          </svg>
+          <p class="hero-caption">Безопасный дом<br>начинается с заботы <span aria-hidden="true">♡</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories" aria-label="Категории товаров">
+    <div class="container categories-inner">
+      <a href="#catalog" class="category-item">
+        <span class="category-icon">
+          <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="7" y="6" width="26" height="28" rx="3" stroke="currentColor" stroke-width="2"/><line x1="20" y1="6" x2="20" y2="34" stroke="currentColor" stroke-width="2"/><line x1="7" y1="20" x2="33" y2="20" stroke="currentColor" stroke-width="2"/><rect x="10.5" y="9.5" width="6" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="23.5" y="9.5" width="6" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="10.5" y="23.5" width="6" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="23.5" y="23.5" width="6" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/></svg>
+        </span>
+        <span>Замки<br>на окна</span>
+      </a>
+      <a href="#catalog" class="category-item">
+        <span class="category-icon">
+          <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="9" y="5" width="22" height="30" rx="2" stroke="currentColor" stroke-width="2"/><line x1="20" y1="5" x2="20" y2="35" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="20" r="1.6" fill="currentColor"/><circle cx="23" cy="20" r="1.6" fill="currentColor"/></svg>
+        </span>
+        <span>Блокираторы<br>мебели</span>
+      </a>
+      <a href="#catalog" class="category-item">
+        <span class="category-icon">
+          <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="12" y="5" width="16" height="30" rx="2" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="20" r="1.6" fill="currentColor"/></svg>
+        </span>
+        <span>Замки<br>на двери</span>
+      </a>
+      <a href="#catalog" class="category-item">
+        <span class="category-icon">
+          <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="10" y="4" width="20" height="32" rx="3" stroke="currentColor" stroke-width="2"/><line x1="10" y1="15" x2="30" y2="15" stroke="currentColor" stroke-width="2"/><line x1="15" y1="8" x2="15" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="15" y1="19" x2="15" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </span>
+        <span>Замки на<br>холодильник</span>
+      </a>
+      <a href="#catalog" class="category-item">
+        <span class="category-icon">
+          <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="8" y="10" width="24" height="20" rx="3" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="16" r="1.4" fill="currentColor"/><circle cx="20" cy="16" r="1.4" fill="currentColor"/><circle cx="26" cy="16" r="1.4" fill="currentColor"/><circle cx="14" cy="22" r="1.4" fill="currentColor"/><circle cx="20" cy="22" r="1.4" fill="currentColor"/><circle cx="26" cy="22" r="1.4" fill="currentColor"/></svg>
+        </span>
+        <span>Кодовые<br>замки</span>
+      </a>
+      <a href="#catalog" class="category-item">
+        <span class="category-icon">
+          <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="16" cy="24" r="6" stroke="currentColor" stroke-width="2"/><circle cx="26" cy="16" r="6" stroke="currentColor" stroke-width="2"/><line x1="20" y1="20" x2="22" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </span>
+        <span>Другие<br>товары</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="catalog">
+    <div class="container">
+      <div class="section-heading">
+        <h2><span class="spark" aria-hidden="true">✦</span> Популярные товары</h2>
+        <a href="#catalog" class="link-arrow">Весь каталог <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="products-grid">
+
+        <article class="product-card">
+          <button class="wish-btn" aria-label="Добавить в избранное" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-10-9.3C.3 7.7 2 4 5.7 4 8 4 10 5.3 12 7.5 14 5.3 16 4 18.3 4 22 4 23.7 7.7 22 11.2 19.5 15.9 12 20.5 12 20.5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="product-thumb">
+            <svg viewBox="0 0 140 120" width="72%" aria-hidden="true"><rect x="15" y="25" width="60" height="70" rx="8" fill="#fff" stroke="#CFE3EA" stroke-width="2"/><circle cx="45" cy="60" r="8" fill="none" stroke="#1B93B2" stroke-width="3"/><rect x="73" y="52" width="20" height="16" rx="3" fill="#F5893C"/></svg>
+          </div>
+          <h3 class="product-title">Замок на окно<br><span>с ключом</span></h3>
+          <div class="product-footer">
+            <span class="price">1 290 ₽</span>
+            <button class="add-btn" aria-label="Добавить «Замок на окно» в корзину" type="button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4h2l2.4 12.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.6L21 8H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="21" r="1.4" fill="currentColor"/><circle cx="18" cy="21" r="1.4" fill="currentColor"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <button class="wish-btn" aria-label="Добавить в избранное" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-10-9.3C.3 7.7 2 4 5.7 4 8 4 10 5.3 12 7.5 14 5.3 16 4 18.3 4 22 4 23.7 7.7 22 11.2 19.5 15.9 12 20.5 12 20.5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="product-thumb">
+            <svg viewBox="0 0 140 120" width="72%" aria-hidden="true"><rect x="35" y="30" width="55" height="45" rx="8" fill="#fff" stroke="#CFE3EA" stroke-width="2"/><rect x="45" y="42" width="35" height="20" rx="4" fill="#F0F7FA" stroke="#1B93B2" stroke-width="2"/><rect x="20" y="58" width="18" height="10" rx="3" fill="#F5893C"/></svg>
+          </div>
+          <h3 class="product-title">Блокиратор шкафа<br><span>(клейкая основа)</span></h3>
+          <div class="product-footer">
+            <span class="price">890 ₽</span>
+            <button class="add-btn" aria-label="Добавить «Блокиратор шкафа» в корзину" type="button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4h2l2.4 12.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.6L21 8H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="21" r="1.4" fill="currentColor"/><circle cx="18" cy="21" r="1.4" fill="currentColor"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <button class="wish-btn" aria-label="Добавить в избранное" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-10-9.3C.3 7.7 2 4 5.7 4 8 4 10 5.3 12 7.5 14 5.3 16 4 18.3 4 22 4 23.7 7.7 22 11.2 19.5 15.9 12 20.5 12 20.5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="product-thumb">
+            <svg viewBox="0 0 140 120" width="72%" aria-hidden="true"><rect x="38" y="28" width="50" height="55" rx="10" fill="#fff" stroke="#CFE3EA" stroke-width="2"/><rect x="48" y="40" width="30" height="30" rx="6" fill="#F0F7FA" stroke="#1B93B2" stroke-width="2"/><circle cx="63" cy="55" r="4" fill="#F5893C"/></svg>
+          </div>
+          <h3 class="product-title">Замок на холодильник<br><span>(универсальный)</span></h3>
+          <div class="product-footer">
+            <span class="price">990 ₽</span>
+            <button class="add-btn" aria-label="Добавить «Замок на холодильник» в корзину" type="button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4h2l2.4 12.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.6L21 8H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="21" r="1.4" fill="currentColor"/><circle cx="18" cy="21" r="1.4" fill="currentColor"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <button class="wish-btn" aria-label="Добавить в избранное" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-10-9.3C.3 7.7 2 4 5.7 4 8 4 10 5.3 12 7.5 14 5.3 16 4 18.3 4 22 4 23.7 7.7 22 11.2 19.5 15.9 12 20.5 12 20.5z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="product-thumb">
+            <svg viewBox="0 0 140 120" width="72%" aria-hidden="true"><rect x="25" y="35" width="28" height="24" rx="6" fill="#fff" stroke="#CFE3EA" stroke-width="2"/><rect x="87" y="35" width="28" height="24" rx="6" fill="#fff" stroke="#CFE3EA" stroke-width="2"/><path d="M53 47c14 0 20 0 34 0" stroke="#1B93B2" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="product-title">Блокиратор с тросиком<br><span>(для дверей и окон)</span></h3>
+          <div class="product-footer">
+            <span class="price">1 190 ₽</span>
+            <button class="add-btn" aria-label="Добавить «Блокиратор с тросиком» в корзину" type="button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4h2l2.4 12.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.6L21 8H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="21" r="1.4" fill="currentColor"/><circle cx="18" cy="21" r="1.4" fill="currentColor"/></svg>
+            </button>
+          </div>
+        </article>
+
+        <div class="promo-card" aria-hidden="true">
+          <p>Забота<br>в каждой<br>детали <span>♡</span></p>
+          <svg viewBox="0 0 140 140" width="60%" aria-hidden="true"><ellipse cx="70" cy="120" rx="45" ry="8" fill="#DCEEF3"/><circle cx="70" cy="70" r="38" fill="#F4E3D0"/><circle cx="55" cy="62" r="4" fill="#3A2C22"/><circle cx="85" cy="62" r="4" fill="#3A2C22"/><path d="M58 78c5 6 9 8 12 8s7-2 12-8" stroke="#8a5a2f" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="40" cy="45" r="9" fill="#F4E3D0"/><circle cx="100" cy="45" r="9" fill="#F4E3D0"/></svg>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" aria-label="Преимущества">
+    <div class="container features-inner">
+      <div class="feature-item">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 4l10 4v8c0 7-4.5 11-10 12-5.5-1-10-5-10-12V8l10-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M11.5 16l3 3 6-6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Надёжные<br>материалы</span>
+      </div>
+      <div class="feature-item">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 5c5 3 9 3 9 3 0 12-4 16-9 19-5-3-9-7-9-19 0 0 4 0 9-3z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <span>Безопасно<br>для детей</span>
+      </div>
+      <div class="feature-item">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M6 16 16 7l10 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 14v11h14V14" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <span>Удобная<br>установка</span>
+      </div>
+      <div class="feature-item">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 26S4 19 4 11.5C4 7.9 6.9 5 10.4 5c2.3 0 4.4 1.2 5.6 3 1.2-1.8 3.3-3 5.6-3C25.1 5 28 7.9 28 11.5 28 19 16 26 16 26z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <span>Забота<br>о вашей семье</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-media" aria-hidden="true">
+        <svg viewBox="0 0 420 380" width="100%" aria-hidden="true">
+          <rect width="420" height="380" rx="24" fill="#F3F8FB"/>
+          <rect x="40" y="230" width="340" height="24" rx="6" fill="#E3EEF2"/>
+          <rect x="60" y="170" width="70" height="60" rx="4" fill="#ffffff" stroke="#CFE3EA" stroke-width="2"/>
+          <path d="M70 170v-30l25-14 25 14v30" fill="none" stroke="#1B93B2" stroke-width="3" stroke-linejoin="round"/>
+          <circle cx="150" cy="90" r="34" fill="#DCEEF3"/>
+          <path d="M134 96c1-16 26-20 32-6" stroke="#1B93B2" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <ellipse cx="270" cy="200" rx="60" ry="34" fill="#FCEFE3"/>
+          <circle cx="245" cy="190" r="16" fill="#F4E3D0"/>
+          <circle cx="240" cy="187" r="2" fill="#3A2C22"/>
+          <circle cx="250" cy="187" r="2" fill="#3A2C22"/>
+        </svg>
+      </div>
+      <div class="about-text">
+        <h2>Home &amp; Baby —<br>это про заботу</h2>
+        <p>Мы создаём продуманные решения, которые помогают родителям сделать пространство дома более безопасным, удобным и спокойным. Потому что каждый ребёнок заслуживает исследовать мир — а каждый родитель заслуживает немного больше спокойствия.</p>
+        <a href="#about" class="btn btn-primary">Узнать больше <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="about-decor" aria-hidden="true">
+        <svg viewBox="0 0 220 220" width="100%">
+          <path d="M110 30 200 110H180V190H40V110H20L110 30Z" fill="none" stroke="#F5893C" stroke-width="3" stroke-linejoin="round"/>
+        </svg>
+        <p>Дом,<br>в котором хорошо<br>всем <span>♡</span></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER / NEWSLETTER -->
+<footer class="site-footer" id="contacts">
+  <div class="container footer-inner">
+    <div class="footer-text">
+      <p class="footer-title"><span class="spark" aria-hidden="true">✦</span> Подписывайтесь на наши новости</p>
+      <p class="footer-sub">Полезные советы, новинки и специальные предложения</p>
+    </div>
+
+    <form class="subscribe-form" action="#" onsubmit="return handleSubscribe(event)">
+      <label class="sr-only" for="subscribe-email">Ваш e-mail</label>
+      <input id="subscribe-email" type="email" required placeholder="Ваш e-mail">
+      <button type="submit">Подписаться</button>
+    </form>
+
+    <div class="social-links" aria-label="Мы в соцсетях">
+      <a href="#" aria-label="ВКонтакте">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.2 17.6c-6.3 0-9.9-4.3-10-11.4h3.3c.1 5.1 2.4 7.3 4.1 7.7V6.2h3.2v4.5c1.7-.2 3.5-2.2 4.1-4.5h3.2c-.5 2.8-2.5 4.8-3.9 5.6 1.4.6 3.7 2.4 4.5 5.8h-3.5c-.7-2.1-2.3-3.7-4.4-3.9v3.9h-.4c0 0-.2 0-.2 0z"/></svg>
+      </a>
+      <a href="#" aria-label="Telegram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.5 4.5 2.8 11.9c-1.1.5-1.1 1.1-.2 1.4l4.8 1.5 1.8 5.6c.2.6.5.7 1 .4l2.7-2 4.7 3.4c.6.4 1 .2 1.2-.5l3.2-15c.3-1.1-.3-1.6-1.5-1.2z"/></svg>
+      </a>
+      <a href="#" aria-label="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+      </a>
+      <a href="#" aria-label="YouTube">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="4"/><path d="M10.5 9.5v5l4.5-2.5-4.5-2.5z" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
+  </div>
+  <p class="copyright">© <span id="year"></span> Home &amp; Baby. Все права защищены.</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
