@@ -423,6 +423,11 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 17px;
   color: var(--color-primary-dark);
 }
+.price--tbd {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
 .add-btn {
   border: none;
   background: var(--color-bg-soft);
