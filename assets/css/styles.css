@@ -391,6 +391,13 @@ button { font-family: inherit; cursor: pointer; }
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
+  overflow: hidden;
+}
+.product-thumb--photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
 }
 .product-title {
   font-size: 14.5px;
